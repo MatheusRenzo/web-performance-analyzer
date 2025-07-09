@@ -25,27 +25,32 @@ Aplicação desktop para análise de desempenho de websites usando o PageSpeed I
 ## 🛠️ Instalação
 
 ### 1. Clonar o repositório
-```bash
+
 git clone https://github.com/MatheusRenzo/web-performance-analyzer.git
 cd web-performance-analyzer
-2. Instalar dependências
-bash
+
+### 2. Instalar dependências
+
+```bash
 pip install -r requirements.txt
-3. Configurar ChromeDriver
+```
+### 3. Configurar ChromeDriver
+
 Verifique sua versão do Chrome (digite chrome://settings/help na barra de endereços)
 
 Baixe o ChromeDriver compatível: https://chromedriver.chromium.org/downloads
 
 Coloque o executável na pasta do projeto ou adicione ao PATH do sistema
 
-🚦 Como Usar
+### 🚦 Como Usar
+
 Execute o aplicativo:
 
-bash
+```bash
 python web_performance_analyzer.py
 Passo a passo:
 Insira a URL a ser analisada (ex: https://www.example.com)
-
+```
 Clique em "Iniciar Análise"
 
 Acompanhe o progresso pelos logs
@@ -54,8 +59,8 @@ Visualize a prévia dos resultados
 
 Exporte para Excel com "Salvar Como..."
 
-📊 Métricas Coletadas
-Métrica	Descrição
+### 📊 Métricas Coletadas
+```bash
 Performance	Pontuação geral de desempenho
 First Contentful Paint	Primeira renderização de conteúdo
 Largest Contentful Paint	Renderização do maior elemento
@@ -63,8 +68,10 @@ Speed Index	Índice de velocidade de carregamento
 Time to Interactive	Tempo até interatividade
 Total Blocking Time	Tempo total de bloqueio
 Cumulative Layout Shift	Mudanças cumulativas de layout
-📁 Estrutura de Arquivos
-text
+```
+
+### 📁 Estrutura de Arquivos
+```bash
 web-performance-analyzer/
 ├── web_performance_analyzer.py   # Código principal da aplicação
 ├── requirements.txt              # Dependências do projeto
@@ -72,7 +79,10 @@ web-performance-analyzer/
 ├── LICENSE                       # Licença MIT
 ├── .gitignore                    # Arquivos ignorados pelo Git
 └── chromedriver(.exe)            # ChromeDriver (opcional)
-🤝 Contribuição
+```
+
+### 🤝 Contribuição
+
 Contribuições são bem-vindas! Siga estes passos:
 
 Faça um fork do projeto
@@ -96,6 +106,6 @@ Processo pode levar 1-2 minutos dependendo do site
 Distribuído sob a licença MIT. Veja LICENSE para mais informações.
 
 ✉️ Contato
-Matheus Renzo - @seu_twitter - seuemail@exemplo.com
+Matheus Renzo - @matheusrenzo.exe (intagram) - matheus.renzo.gama@gmail.com 
 
 Link do Projeto: https://github.com/MatheusRenzo/web-performance-analyzer
