@@ -4,9 +4,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
-from datetime import datetime, timedelta
+from datetime import datetime
 import pandas as pd
-import os
 import time
 import threading
 import tkinter as tk
